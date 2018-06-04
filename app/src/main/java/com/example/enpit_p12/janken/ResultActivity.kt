@@ -68,7 +68,7 @@ class ResultActivity : AppCompatActivity() {
                             0)
                 .putInt("LAST_MY_HAND",myHand)
                     .putInt("LAST_COM_HAND",comHand)
-                .putInt("BEFORE_LAST_COM_HAND",lastComHand)
+                .putInt("BEFORE_LAST_COM_HAND",lastComHand) //afaaa
                 .putInt("GAME_RESULT",gameResult)
                 .apply()
     }
